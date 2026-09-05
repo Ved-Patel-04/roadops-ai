@@ -1,0 +1,41 @@
+
+--- HOLDOUT PRIORITY RESULTS ---
+
+A5: Expected=LOW | Baseline=MEDIUM (FAIL) | RoadOps=LOW (PASS)
+A6: Expected=MEDIUM | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=MEDIUM (PASS)
+A7: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A8: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A9: Expected=LOW | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=LOW (PASS)
+A10: Expected=MEDIUM | Baseline=LOW (FAIL) | RoadOps=MEDIUM (PASS)
+A11: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A12: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A13: Expected=MEDIUM | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=MEDIUM (PASS)
+A14: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A15: Expected=MEDIUM | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=LOW (FAIL)
+A16: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A17: Expected=INSUFFICIENT_INFORMATION | Baseline=INSUFFICIENT_INFORMATION (PASS) | RoadOps=INSUFFICIENT_INFORMATION (PASS)
+A18: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A19: Expected=LOW | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=LOW (PASS)
+A20: Expected=MEDIUM | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=MEDIUM (PASS)
+A21: Expected=CRITICAL | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=CRITICAL (PASS)
+A22: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+A23: Expected=CRITICAL | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=CRITICAL (PASS)
+A24: Expected=HIGH | Baseline=INSUFFICIENT_INFORMATION (FAIL) | RoadOps=HIGH (PASS)
+
+--- HOLDOUT PRIORITY ACCURACY ---
+Baseline: 5.0%
+RoadOps:  95.0%
+
+--- HOLDOUT QUALITY METRICS ---
+Baseline factor recall: 23.2%
+RoadOps factor recall:  92.2%
+Baseline guidance coverage: 28.3%
+RoadOps guidance coverage:  81.7%
+Baseline prohibited matches: 0
+RoadOps prohibited matches:  0
+
+--- ROADOPS TOOL USAGE ---
+Traffic: 20/20
+Weather: 20/20
+Incident Details: 20/20
+SOP: 20/20

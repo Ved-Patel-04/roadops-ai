@@ -1,0 +1,56 @@
+
+--- PRIORITY RESULTS ---
+
+A1: Expected=LOW | Baseline=MEDIUM (FAIL) | RoadOps=LOW (PASS)
+A2: Expected=MEDIUM | Baseline=HIGH (FAIL) | RoadOps=HIGH (FAIL)
+A3: Expected=HIGH | Baseline=HIGH (PASS) | RoadOps=HIGH (PASS)
+A4: Expected=HIGH | Baseline=MEDIUM (FAIL) | RoadOps=HIGH (PASS)
+
+--- PRIORITY ACCURACY ---
+Baseline: 25.0%
+RoadOps: 75.0%
+
+--- DETAILED CASE RESULTS ---
+
+A1
+  Baseline factor recall: 33.3%
+  RoadOps factor recall:  100.0%
+  Baseline guidance coverage: 50.0%
+  RoadOps guidance coverage:  100.0%
+  Baseline prohibited matches: 1
+  RoadOps prohibited matches:  0
+
+A2
+  Baseline factor recall: 50.0%
+  RoadOps factor recall:  100.0%
+  Baseline guidance coverage: 50.0%
+  RoadOps guidance coverage:  100.0%
+  Baseline prohibited matches: 1
+  RoadOps prohibited matches:  1
+
+A3
+  Baseline factor recall: 20.0%
+  RoadOps factor recall:  80.0%
+  Baseline guidance coverage: 33.3%
+  RoadOps guidance coverage:  66.7%
+  Baseline prohibited matches: 1
+  RoadOps prohibited matches:  1
+
+A4
+  Baseline factor recall: 0.0%
+  RoadOps factor recall:  66.7%
+  Baseline guidance coverage: 66.7%
+  RoadOps guidance coverage:  66.7%
+  Baseline prohibited matches: 1
+  RoadOps prohibited matches:  1
+
+--- AVERAGE QUALITY METRICS ---
+Baseline factor recall: 25.8%
+RoadOps factor recall:  86.7%
+Baseline guidance coverage: 50.0%
+RoadOps guidance coverage:  83.3%
+
+--- ROADOPS TOOL USAGE ---
+Traffic: 4
+Weather: 2
+SOP: 4

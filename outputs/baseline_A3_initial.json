@@ -1,0 +1,31 @@
+
+{
+  "priority": "HIGH",
+  "confidence": 0.86,
+  "identified_factors": [
+    "Disabled tractor-trailer is blocking the right lane",
+    "Incident is on I-4 eastbound, a major interstate",
+    "Location is near Exit 55, which may affect merging and exiting traffic"
+  ],
+  "recommended_actions": [
+    "Verify the blockage and assess traffic conditions and queue length",
+    "Consider warning approaching drivers and providing temporary traffic control",
+    "Coordinate appropriate roadside assistance or incident response resources",
+    "Monitor for congestion growth and secondary crashes"
+  ],
+  "missing_information": [
+    "Whether the tractor-trailer is fully or partially blocking the lane",
+    "Extent of traffic backup and current travel speeds",
+    "Availability of a shoulder or alternate lane passage",
+    "Whether anyone is injured or otherwise in danger",
+    "Whether hazardous materials, fuel leakage, fire, or other hazards are involved",
+    "Weather, visibility, and time of day",
+    "Exact roadway direction/location relative to Exit 55"
+  ],
+  "unsupported_assumptions": [
+    "No injuries or hazardous-material involvement",
+    "Traffic can safely pass in adjacent lanes",
+    "The vehicle is on the shoulder or has warning devices deployed"
+  ],
+  "reasoning_summary": "A disabled tractor-trailer blocking a travel lane on a major interstate presents a substantial traffic and secondary-crash risk. HIGH is appropriate based on the confirmed lane blockage, but the absence of information about injuries, hazardous conditions, and congestion limits confidence in assessing whether the incident is critical."
+}

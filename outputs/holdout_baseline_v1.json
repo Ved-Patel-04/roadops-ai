@@ -1,0 +1,571 @@
+[
+  {
+    "incident_id": "A5",
+    "expected_priority": "LOW",
+    "baseline": {
+      "priority": "MEDIUM",
+      "confidence": 0.72,
+      "identified_factors": [
+        "Disabled vehicle on I-275 northbound",
+        "Location is near Exit 45",
+        "Potential traffic obstruction or roadway hazard"
+      ],
+      "recommended_actions": [
+        "Verify the vehicle\u2019s exact location and whether it is obstructing travel lanes or shoulders",
+        "Assess traffic conditions and visibility around the vehicle",
+        "Consider arranging appropriate roadside assistance or traffic-management support if needed",
+        "Provide traveler information or warnings if a hazard or congestion is confirmed"
+      ],
+      "missing_information": [
+        "Whether the vehicle is in a travel lane, shoulder, or another location",
+        "Whether anyone is injured or needs immediate assistance",
+        "Number and type of vehicles involved",
+        "Extent of traffic congestion or roadway blockage",
+        "Time of report and current conditions",
+        "Whether the vehicle has warning lights, cones, or other protective measures",
+        "Whether responders or roadside assistance have been notified"
+      ],
+      "reasoning_summary": "A disabled vehicle on a highway may create a traffic and safety hazard, but the report does not indicate injuries, a lane blockage, a collision, or major congestion. Medium priority is appropriate pending verification of the vehicle\u2019s position and immediate safety impact."
+    }
+  },
+  {
+    "incident_id": "A6",
+    "expected_priority": "MEDIUM",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A vehicle crash was reported.",
+        "The incident is on SR-60 eastbound.",
+        "The location is near an interchange."
+      ],
+      "recommended_actions": [
+        "Verify the crash location and roadway direction.",
+        "Assess injuries, fatalities, hazards, and whether vehicles are obstructing travel lanes.",
+        "Determine traffic impacts, including closures, congestion, and the need for traffic control.",
+        "Coordinate appropriate response and notify relevant roadway or emergency authorities based on verified conditions."
+      ],
+      "missing_information": [
+        "Number and type of vehicles involved",
+        "Whether there are injuries or fatalities",
+        "Whether the crash is blocking lanes or shoulders",
+        "Presence of fire, hazardous materials, debris, or other immediate hazards",
+        "Exact interchange or mile marker",
+        "Current traffic conditions and congestion",
+        "Weather and roadway conditions",
+        "Whether emergency services or incident response personnel have been notified"
+      ],
+      "reasoning_summary": "The report confirms a crash in a potentially high-traffic area but provides no information about injuries, hazards, lane blockage, or traffic impacts. A reliable priority level cannot be determined from the available facts."
+    }
+  },
+  {
+    "incident_id": "A7",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A truck incident was reported",
+        "Location: I-75 southbound near Exit 265"
+      ],
+      "recommended_actions": [
+        "Verify the incident details and current roadway conditions",
+        "Assess whether travel lanes or shoulders are blocked",
+        "Consider notifying the appropriate roadway and emergency response authorities based on verified conditions",
+        "Provide traveler information if the incident is confirmed to affect traffic"
+      ],
+      "missing_information": [
+        "Nature of the truck incident",
+        "Number and type of vehicles involved",
+        "Whether there are injuries or fatalities",
+        "Whether hazardous materials are involved",
+        "Number of lanes or shoulders blocked",
+        "Current traffic congestion or delays",
+        "Exact incident location and direction confirmation",
+        "Whether emergency services are needed or already responding",
+        "Current weather and roadway conditions"
+      ],
+      "reasoning_summary": "The report identifies a truck-related incident and a general location but provides no information about severity, injuries, hazards, lane blockage, or traffic impact. A reliable priority assessment cannot be made from the available information."
+    }
+  },
+  {
+    "incident_id": "A8",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A roadway incident was reported on I-4 eastbound near Exit 33.",
+        "The report provides a general location and travel direction."
+      ],
+      "recommended_actions": [
+        "Verify the incident details and exact location.",
+        "Assess whether travel lanes, shoulders, or ramps are blocked.",
+        "Determine whether injuries, hazardous materials, fire, or secondary collision risks are present.",
+        "Consider traffic monitoring and appropriate public or responder notifications based on verified conditions."
+      ],
+      "missing_information": [
+        "Incident type and severity",
+        "Number and condition of vehicles or other parties involved",
+        "Any injuries or fatalities",
+        "Lane, shoulder, or ramp blockage",
+        "Traffic congestion or delays",
+        "Presence of fire, hazardous materials, or debris",
+        "Weather and visibility conditions",
+        "Availability of on-scene responders",
+        "Exact location relative to Exit 33"
+      ],
+      "reasoning_summary": "The report confirms only that an incident occurred on I-4 eastbound near Exit 33. It lacks the severity and operational-impact details needed to assign a reliable priority."
+    }
+  },
+  {
+    "incident_id": "A9",
+    "expected_priority": "LOW",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.92,
+      "identified_factors": [
+        "A disabled vehicle is reported on US-19 northbound.",
+        "The roadway direction is identified, but no location detail beyond the route is provided."
+      ],
+      "recommended_actions": [
+        "Verify the vehicle\u2019s precise location and whether it is obstructing travel lanes or creating a hazard.",
+        "Assess traffic impact, visibility, roadway conditions, and whether occupants require assistance.",
+        "Consider appropriate traffic-control or roadside-assistance measures based on the verified hazard."
+      ],
+      "missing_information": [
+        "Exact location, including nearby landmark, mile marker, or intersection",
+        "Whether the vehicle is in a travel lane, shoulder, or another position",
+        "Number of vehicles and occupants involved",
+        "Presence of injuries, medical needs, or immediate safety threats",
+        "Extent of traffic disruption or congestion",
+        "Time reported and current status",
+        "Weather, lighting, and roadway conditions"
+      ],
+      "reasoning_summary": "The report confirms a disabled vehicle on a specified highway and direction, but does not establish its location, degree of obstruction, traffic impact, or any injuries or immediate hazards. A reliable priority assessment cannot be made from the available information."
+    }
+  },
+  {
+    "incident_id": "A10",
+    "expected_priority": "MEDIUM",
+    "baseline": {
+      "priority": "LOW",
+      "confidence": 0.68,
+      "identified_factors": [
+        "A minor crash was reported.",
+        "The incident is on I-275 southbound."
+      ],
+      "recommended_actions": [
+        "Verify the crash location and current status.",
+        "Assess whether lanes are blocked or traffic is affected.",
+        "Confirm whether injuries, hazards, or additional vehicles are involved.",
+        "Provide appropriate roadway or traveler notifications based on verified impacts."
+      ],
+      "missing_information": [
+        "Exact location or nearby interchange/mile marker",
+        "Number of vehicles involved",
+        "Whether anyone is injured",
+        "Whether lanes or the shoulder are blocked",
+        "Traffic conditions or delay",
+        "Presence of debris, hazardous materials, or other roadway hazards",
+        "Whether responders are needed or already on scene"
+      ],
+      "reasoning_summary": "The report characterizes the crash as minor, supporting a LOW priority. However, key information about injuries, roadway blockage, hazards, and traffic impacts is unavailable, so confidence is limited."
+    }
+  },
+  {
+    "incident_id": "A11",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A vehicle incident was reported on I-4 westbound."
+      ],
+      "recommended_actions": [
+        "Obtain additional details about the incident and assess whether traffic control or emergency response may be needed.",
+        "Verify the precise location and current roadway conditions."
+      ],
+      "missing_information": [
+        "Exact location, including direction-specific mile marker or nearby interchange",
+        "Number and type of vehicles involved",
+        "Whether there are injuries or fatalities",
+        "Whether vehicles are blocking travel lanes or shoulders",
+        "Crash severity and damage",
+        "Presence of fire, hazardous materials, or other immediate hazards",
+        "Current traffic congestion, delays, or secondary incidents",
+        "Time of occurrence and whether the incident is still active"
+      ],
+      "reasoning_summary": "The report confirms only that a vehicle incident occurred on I-4 westbound. It provides insufficient information to reliably determine the incident's severity, operational impact, or required response priority."
+    }
+  },
+  {
+    "incident_id": "A12",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A roadway obstruction was reported",
+        "Location is I-75 northbound"
+      ],
+      "recommended_actions": [
+        "Verify the obstruction and assess whether it affects travel lanes or roadway safety",
+        "Notify the appropriate roadway or traffic-management authority for evaluation",
+        "Consider traffic warnings or control measures if lanes are blocked or hazards are confirmed"
+      ],
+      "missing_information": [
+        "Exact location or mile marker",
+        "Nature, size, and position of the obstruction",
+        "Number of lanes affected",
+        "Whether traffic is blocked, slowed, or diverting",
+        "Presence of injuries, collisions, fire, hazardous materials, or other immediate hazards",
+        "Current traffic conditions and visibility",
+        "Time of report and reliability of the information"
+      ],
+      "reasoning_summary": "The report identifies a potential roadway hazard but provides no information about its severity, lane impact, associated injuries, or other risks. A reliable priority level cannot be assigned from the available details."
+    }
+  },
+  {
+    "incident_id": "A13",
+    "expected_priority": "MEDIUM",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.93,
+      "identified_factors": [
+        "Disabled truck reported on I-4 eastbound",
+        "Incident location is on an interstate roadway",
+        "Potential traffic obstruction or safety hazard is not described"
+      ],
+      "recommended_actions": [
+        "Verify the truck\u2019s precise location, lane position, and visibility to approaching traffic",
+        "Assess whether travel lanes, shoulders, or ramps are blocked",
+        "Check for injuries, collision involvement, hazardous materials, or other immediate hazards",
+        "Consider appropriate traffic warning, control, and response measures based on the verified conditions"
+      ],
+      "missing_information": [
+        "Exact location or mile marker",
+        "Number and position of blocked lanes",
+        "Whether the truck is on the shoulder or in a travel lane",
+        "Traffic speed, congestion, and visibility conditions",
+        "Whether a collision occurred",
+        "Whether anyone is injured or stranded",
+        "Presence of hazardous materials, fire, smoke, or fluid spill",
+        "Available warning devices or other scene protections"
+      ],
+      "reasoning_summary": "A disabled truck on an interstate may create a significant traffic and safety hazard, but the report does not establish lane blockage, collision, injuries, or other conditions needed to assign a reliable priority."
+    }
+  },
+  {
+    "incident_id": "A14",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.93,
+      "identified_factors": [
+        "Disabled truck on I-4 eastbound",
+        "Potential obstruction or hazard to traffic"
+      ],
+      "recommended_actions": [
+        "Verify the truck\u2019s exact location and whether it is occupying a travel lane or shoulder",
+        "Assess traffic conditions, visibility, crash involvement, and any immediate danger to occupants or other road users",
+        "Consider appropriate traffic warnings and response resources based on the verified conditions"
+      ],
+      "missing_information": [
+        "Exact location or mile marker",
+        "Whether the truck is in a travel lane, shoulder, or other position",
+        "Extent of traffic obstruction or congestion",
+        "Presence of injuries, crashes, fire, hazardous materials, or other hazards",
+        "Weather, visibility, and roadway conditions",
+        "Whether the truck\u2019s occupants are safe and whether assistance has been requested"
+      ],
+      "reasoning_summary": "The report identifies a disabled truck and direction of travel but does not provide enough information about its location, obstruction, or associated hazards to assign a reliable priority."
+    }
+  },
+  {
+    "incident_id": "A15",
+    "expected_priority": "MEDIUM",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.99,
+      "identified_factors": [
+        "Incident reported on I-275 northbound."
+      ],
+      "recommended_actions": [
+        "Obtain additional details before assigning a reliable priority.",
+        "Verify the incident location and assess current roadway conditions."
+      ],
+      "missing_information": [
+        "Nature and severity of the incident",
+        "Exact location, including nearby exits or mile marker",
+        "Number and type of vehicles involved",
+        "Injuries or fatalities",
+        "Lane or roadway blockage",
+        "Hazardous materials or other hazards",
+        "Traffic impact, congestion, or detours",
+        "Weather and visibility conditions",
+        "Whether emergency or transportation personnel have been notified"
+      ],
+      "reasoning_summary": "The report identifies only a roadway and direction of travel. It does not provide enough information to determine the incident's severity, safety risk, or traffic impact."
+    }
+  },
+  {
+    "incident_id": "A16",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A truck incident was reported",
+        "Location is I-75 southbound"
+      ],
+      "recommended_actions": [
+        "Obtain additional details before assigning a reliable priority",
+        "Verify the precise location and current roadway conditions",
+        "Assess whether there are injuries, hazards, blocked lanes, or traffic impacts",
+        "Consider appropriate response and traffic-management measures based on confirmed conditions"
+      ],
+      "missing_information": [
+        "Precise location, including nearest exit or mile marker",
+        "Nature and severity of the incident",
+        "Whether the truck is blocking lanes or the shoulder",
+        "Any injuries or fatalities",
+        "Presence of fire, hazardous materials, fuel spill, or other hazards",
+        "Current traffic congestion or roadway impact",
+        "Number of vehicles involved",
+        "Whether emergency services or transportation authorities have been notified"
+      ],
+      "reasoning_summary": "The report confirms only that a truck incident occurred on I-75 southbound. It provides no information about severity, injuries, hazards, lane blockage, or traffic impact, so a reliable priority assessment cannot be made."
+    }
+  },
+  {
+    "incident_id": "A17",
+    "expected_priority": "INSUFFICIENT_INFORMATION",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A possible roadway incident was reported near Exit 40.",
+        "The report does not confirm that an incident occurred or describe its nature."
+      ],
+      "recommended_actions": [
+        "Verify the report and determine the exact location and roadway direction.",
+        "Assess whether there are injuries, blocked lanes, hazardous materials, fire, or other immediate safety threats.",
+        "Notify or coordinate with appropriate roadway and emergency response authorities if the incident is confirmed.",
+        "Consider temporary traffic warnings or controls based on verified conditions."
+      ],
+      "missing_information": [
+        "Exact highway or roadway and direction of travel",
+        "Precise location relative to Exit 40",
+        "Incident type and severity",
+        "Number and types of vehicles involved",
+        "Injuries or fatalities",
+        "Lane or roadway blockage",
+        "Fire, hazardous materials, or other immediate hazards",
+        "Current traffic conditions and confirmation of the report"
+      ],
+      "reasoning_summary": "The report only states that a possible incident was reported near Exit 40. It provides no verified details about occurrence, severity, hazards, injuries, or traffic impact, so a reliable priority cannot be assigned."
+    }
+  },
+  {
+    "incident_id": "A18",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.99,
+      "identified_factors": [
+        "A vehicle incident was reported.",
+        "The incident location is identified only as I-4."
+      ],
+      "recommended_actions": [
+        "Obtain additional incident details before assigning a priority.",
+        "Verify the precise location and roadway direction.",
+        "Assess injuries, hazards, blocked lanes, vehicle involvement, and current traffic impacts."
+      ],
+      "missing_information": [
+        "Exact location, including direction of travel and nearby reference point",
+        "Number and type of vehicles involved",
+        "Whether there are injuries or fatalities",
+        "Whether vehicles or debris are obstructing lanes",
+        "Presence of fire, hazardous materials, or other immediate hazards",
+        "Current traffic congestion or roadway impact",
+        "Time of occurrence and whether the incident is ongoing"
+      ],
+      "reasoning_summary": "The report confirms only that a vehicle incident occurred on I-4. It provides no information about severity, injuries, hazards, lane blockage, or traffic effects, so a reliable priority assessment cannot be made."
+    }
+  },
+  {
+    "incident_id": "A19",
+    "expected_priority": "LOW",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.94,
+      "identified_factors": [
+        "A disabled vehicle is reported on I-275.",
+        "The report does not specify whether the vehicle is in a travel lane, shoulder, ramp, or other location."
+      ],
+      "recommended_actions": [
+        "Verify the vehicle\u2019s precise location and whether it obstructs traffic.",
+        "Assess traffic conditions, visibility, and the risk of secondary collisions.",
+        "Determine whether traffic control, roadside assistance, or emergency response is warranted.",
+        "Monitor for changes or additional reported hazards."
+      ],
+      "missing_information": [
+        "Direction of travel and specific roadway location or mile marker",
+        "Vehicle position relative to travel lanes and shoulder",
+        "Extent of traffic obstruction or congestion",
+        "Presence of occupants, injuries, hazards, or vehicle damage",
+        "Current weather, visibility, and roadway conditions",
+        "Whether responders or roadside assistance have been notified"
+      ],
+      "reasoning_summary": "A disabled vehicle may create a roadway hazard, but the report lacks sufficient detail to determine its severity, exposure to traffic, or need for urgent response."
+    }
+  },
+  {
+    "incident_id": "A20",
+    "expected_priority": "MEDIUM",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.99,
+      "identified_factors": [
+        "A crash was reported",
+        "The location is identified as I-75"
+      ],
+      "recommended_actions": [
+        "Obtain additional details about the crash before assigning a reliable priority",
+        "Verify the precise location and roadway direction",
+        "Assess injuries, fatalities, vehicle involvement, hazards, lane closures, and traffic impacts",
+        "Consider notifying or coordinating with appropriate response and traffic-management resources based on confirmed conditions"
+      ],
+      "missing_information": [
+        "Exact location, direction, and nearby landmarks or mile marker",
+        "Time of crash and whether it is ongoing",
+        "Number and types of vehicles involved",
+        "Injuries or fatalities",
+        "Whether vehicles are blocking lanes or the roadway",
+        "Presence of fire, hazardous materials, debris, or other hazards",
+        "Current traffic conditions and extent of congestion",
+        "Weather and roadway conditions"
+      ],
+      "reasoning_summary": "The report confirms only that a crash occurred on I-75. It provides no information about severity, injuries, hazards, roadway blockage, or traffic impact, so a reliable priority assessment is not possible."
+    }
+  },
+  {
+    "incident_id": "A21",
+    "expected_priority": "CRITICAL",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "Incident reported on I-4 eastbound",
+        "Described as a major roadway incident"
+      ],
+      "recommended_actions": [
+        "Verify the incident location and affected lanes",
+        "Assess injuries, fatalities, fire, hazardous materials, and vehicles involved",
+        "Determine current traffic obstruction, congestion, and roadway conditions",
+        "Notify or coordinate with appropriate roadway and emergency-response authorities based on verified details",
+        "Provide traveler information and consider traffic-control measures if warranted"
+      ],
+      "missing_information": [
+        "Exact location or nearest interchange/mile marker",
+        "Nature and severity of the incident",
+        "Number and types of vehicles involved",
+        "Any injuries or fatalities",
+        "Whether fire or hazardous materials are involved",
+        "Number of lanes blocked and current traffic impact",
+        "Weather and roadway conditions",
+        "Reliability and time of the report"
+      ],
+      "reasoning_summary": "The report indicates a potentially serious incident and identifies the roadway and direction, but provides no verifiable details about severity, hazards, casualties, or traffic impact. A reliable priority assignment cannot be made from the available information."
+    }
+  },
+  {
+    "incident_id": "A22",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.99,
+      "identified_factors": [
+        "A major truck incident was reported.",
+        "The incident is on I-75."
+      ],
+      "recommended_actions": [
+        "Verify the incident location and direction of travel.",
+        "Assess whether lanes are blocked and the extent of traffic disruption.",
+        "Determine whether there are injuries, fatalities, fire, hazardous materials, or other immediate hazards.",
+        "Coordinate appropriate response and traffic-management resources based on verified conditions.",
+        "Provide traveler information and consider route guidance if significant disruption is confirmed."
+      ],
+      "missing_information": [
+        "Exact location, direction, and nearby landmarks or exits",
+        "Number and type of vehicles involved",
+        "Whether lanes or shoulders are blocked",
+        "Injuries or fatalities",
+        "Fire, explosion, hazardous-material involvement, or cargo spill",
+        "Traffic conditions and estimated delay",
+        "Current status and time of occurrence",
+        "Weather and roadway conditions",
+        "Whether emergency services or other responders are present"
+      ],
+      "reasoning_summary": "The report indicates a potentially significant roadway incident involving a truck, but provides no verified details about injuries, hazards, lane blockage, traffic impact, or exact location. A reliable priority assessment cannot be made from the available information."
+    }
+  },
+  {
+    "incident_id": "A23",
+    "expected_priority": "CRITICAL",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A major roadway incident is reported.",
+        "The incident is near an interstate interchange.",
+        "No details are provided about injuries, fatalities, hazards, traffic blockage, or current conditions."
+      ],
+      "recommended_actions": [
+        "Obtain and verify details on injuries, vehicles involved, hazards, roadway obstruction, and traffic impacts.",
+        "Consider notifying appropriate roadway, emergency, and traffic-management authorities for assessment.",
+        "Monitor and communicate changing conditions and potential detour or closure needs."
+      ],
+      "missing_information": [
+        "Exact location and affected roadway or interchange",
+        "Incident type and number of vehicles involved",
+        "Injuries or fatalities",
+        "Fire, hazardous materials, spill, or other immediate hazards",
+        "Extent of lane or roadway blockage",
+        "Traffic congestion and travel impacts",
+        "Current scene conditions and whether responders are present"
+      ],
+      "reasoning_summary": "The report indicates a potentially significant location and describes the incident as major, but provides no operational details needed to distinguish among low, medium, high, or critical priority."
+    }
+  },
+  {
+    "incident_id": "A24",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "INSUFFICIENT_INFORMATION",
+      "confidence": 0.98,
+      "identified_factors": [
+        "A large vehicle incident was reported.",
+        "The location is I-275 southbound."
+      ],
+      "recommended_actions": [
+        "Verify the incident details and exact location, including direction, lanes, and nearby landmarks or exits.",
+        "Assess whether lanes are blocked, traffic is slowing, or secondary crashes are occurring.",
+        "Determine whether there are injuries, fire, hazardous-material involvement, or other immediate safety threats.",
+        "Consider notifying appropriate roadway and emergency-response authorities based on verified conditions.",
+        "Provide traveler information or traffic-management measures if significant disruption is confirmed."
+      ],
+      "missing_information": [
+        "Exact location or nearest exit/mile marker",
+        "Number and type of vehicles involved",
+        "Whether lanes or the roadway are blocked",
+        "Injuries or fatalities",
+        "Fire, hazardous materials, or other immediate hazards",
+        "Traffic impact and congestion",
+        "Current incident status and time of occurrence"
+      ],
+      "reasoning_summary": "The report identifies a large vehicle incident and a general roadway direction but provides no information about injuries, hazards, roadway blockage, traffic impact, or precise location. A reliable priority level cannot be assigned from the available facts."
+    }
+  }
+]

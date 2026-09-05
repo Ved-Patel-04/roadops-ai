@@ -1,0 +1,336 @@
+[
+  {
+    "incident_id": "A1",
+    "expected_priority": "LOW",
+    "baseline": {
+      "priority": "MEDIUM",
+      "confidence": 0.84,
+      "identified_factors": [
+        "Disabled sedan",
+        "Located on the shoulder of I-4 eastbound",
+        "Near Exit 48",
+        "Potential exposure to moving traffic"
+      ],
+      "recommended_actions": [
+        "Verify the vehicle\u2019s exact position and whether it is fully outside the travel lanes",
+        "Assess whether occupants are present, safe, and able to exit the vehicle",
+        "Consider appropriate roadside assistance or traffic-control response based on observed hazard",
+        "Monitor for changes, including lane obstruction or worsening roadside safety conditions"
+      ],
+      "missing_information": [
+        "Whether the sedan is fully on the shoulder or partially obstructing a travel lane",
+        "Whether occupants are present or in distress",
+        "Whether there are injuries, mechanical hazards, or leaking fluids",
+        "Current visibility, weather, and traffic conditions",
+        "Whether warning lights, cones, or other safety measures are in use"
+      ],
+      "reasoning_summary": "A disabled vehicle on a high-speed interstate shoulder presents a potential traffic and occupant-safety hazard, but the report does not indicate a lane blockage, injuries, collision, or immediate distress. MEDIUM is appropriate pending verification of the vehicle\u2019s position and safety conditions."
+    },
+    "roadops": {
+      "tool_plan": {
+        "use_traffic": true,
+        "use_weather": true,
+        "use_sop": true,
+        "traffic_reason": "Traffic volume, queue status, and speeds would help assess exposure to the disabled vehicle and responders.",
+        "weather_reason": "Weather and visibility conditions could affect roadway safety and the risk of secondary incidents.",
+        "sop_reason": "Relevant incident-policy guidance would clarify recommended handling for a disabled vehicle on an interstate shoulder."
+      },
+      "context": {
+        "traffic": {
+          "available": true,
+          "data": {
+            "traffic_level": "light",
+            "queue_status": "none",
+            "average_speed_mph": 61,
+            "normal_speed_mph": 65
+          }
+        },
+        "weather": {
+          "available": true,
+          "data": {
+            "condition": "clear",
+            "visibility": "normal"
+          }
+        },
+        "sop": {
+          "available": true,
+          "guidance": [
+            "## SOP-02: Active-Lane Impact\n\nAn incident affecting an active travel lane generally creates greater\noperational impact than an incident located entirely on the shoulder.\n\nIncreasing numbers of blocked active lanes may increase incident\npriority.",
+            "# RoadOps POC Priority Framework\n\n## LOW\n\nTypical characteristics:\n\n- no active travel lane blocked\n- minimal traffic disruption\n- shoulder-only incident\n- little or no queue development\n- no significant compounding contextual factors"
+          ]
+        }
+      },
+      "assessment": {
+        "priority": "LOW",
+        "confidence": 0.98,
+        "identified_factors": [
+          "Incident is reported on the shoulder rather than an active travel lane.",
+          "Traffic is light, with no queue reported.",
+          "Average speed is 61 mph versus a normal 65 mph, indicating minimal disruption.",
+          "Weather is clear with normal visibility.",
+          "The provided SOP identifies shoulder-only incidents with minimal disruption and no queue development as typical LOW priority."
+        ],
+        "recommended_actions": [
+          "Verify the sedan remains fully clear of active travel lanes and assess whether any immediate hazard is present.",
+          "Monitor the location for changes, including lane intrusion, queue formation, worsening visibility, or indications of occupant distress.",
+          "Coordinate or refer the vehicle for appropriate roadside assistance under applicable procedures if needed."
+        ],
+        "missing_information": [
+          "Whether the vehicle is fully outside the travel lane.",
+          "Whether occupants require medical or other immediate assistance.",
+          "Whether the vehicle presents a secondary hazard, such as debris, leaking fluids, or inadequate visibility."
+        ],
+        "reasoning_summary": "Based on the available information, this is a shoulder-only disabled-vehicle incident under light traffic, clear weather, and no queue conditions. These factors align with the SOP's LOW-priority characteristics. Priority should be reassessed if the vehicle obstructs a travel lane, creates a hazard, or conditions deteriorate."
+      }
+    }
+  },
+  {
+    "incident_id": "A2",
+    "expected_priority": "MEDIUM",
+    "baseline": {
+      "priority": "HIGH",
+      "confidence": 0.86,
+      "identified_factors": [
+        "Disabled vehicle is blocking the right lane",
+        "Incident is on I-4 eastbound, a major roadway",
+        "Location is near Exit 52, creating a potential traffic hazard and congestion risk"
+      ],
+      "recommended_actions": [
+        "Assess and manage the lane blockage promptly",
+        "Provide appropriate traffic warnings or lane-control measures",
+        "Arrange assistance to remove or relocate the disabled vehicle",
+        "Monitor for congestion, secondary crashes, or worsening conditions"
+      ],
+      "missing_information": [
+        "Whether anyone is injured or requires assistance",
+        "Traffic volume, speeds, and current queue length",
+        "Visibility, weather, and roadway conditions",
+        "Whether the vehicle is fully obstructing the lane or has warning devices deployed",
+        "Exact location relative to the exit and available shoulder space",
+        "Whether responders or a tow provider have been notified"
+      ],
+      "reasoning_summary": "A disabled vehicle blocking a travel lane on a major interstate presents a significant collision and congestion hazard, supporting a HIGH priority. There is no information indicating injuries, a crash, fire, hazardous materials, or an immediate life-threatening condition, so CRITICAL priority is not supported by the report."
+    },
+    "roadops": {
+      "tool_plan": {
+        "use_traffic": true,
+        "use_weather": true,
+        "use_sop": true,
+        "traffic_reason": "Traffic conditions, queueing, and speeds are important for understanding the operational impact and exposure created by a vehicle blocking a travel lane.",
+        "weather_reason": "Weather and visibility may affect driver detection, scene safety, and the potential severity of the lane blockage.",
+        "sop_reason": "Relevant incident-policy guidance can clarify the information and response considerations for a disabled vehicle blocking a freeway lane."
+      },
+      "context": {
+        "traffic": {
+          "available": true,
+          "data": {
+            "traffic_level": "moderate",
+            "queue_status": "small",
+            "average_speed_mph": 43,
+            "normal_speed_mph": 65
+          }
+        },
+        "weather": {
+          "available": true,
+          "data": {
+            "condition": "clear",
+            "visibility": "normal"
+          }
+        },
+        "sop": {
+          "available": true,
+          "guidance": [
+            "## SOP-01: Verify Incident Information\n\nRoadOps should avoid making assumptions when critical information is\nmissing.\n\nImportant incident information may include:\n\n- roadway\n- direction\n- location\n- incident type\n- active-lane impact\n- traffic conditions\n- queue conditions\n- expected incident duration\n\nIf sufficient information is unavailable, RoadOps may classify the\nincident as INSUFFICIENT_INFORMATION.",
+            "## SOP-02: Active-Lane Impact\n\nAn incident affecting an active travel lane generally creates greater\noperational impact than an incident located entirely on the shoulder.\n\nIncreasing numbers of blocked active lanes may increase incident\npriority.",
+            "## SOP-04: Changing Conditions\n\nIncident assessments should be reevaluated when conditions change.\n\nRelevant changes include:\n\n- increasing or decreasing congestion\n- growing or clearing traffic queues\n- lane closures or reopenings\n- worsening weather\n- changing visibility\n- changes in expected clearance duration"
+          ]
+        }
+      },
+      "assessment": {
+        "priority": "HIGH",
+        "confidence": 0.92,
+        "identified_factors": [
+          "Disabled vehicle is blocking an active right travel lane on I-4 eastbound near Exit 52.",
+          "Traffic is moderately affected, with a small queue and average speed of 43 mph versus a normal 65 mph.",
+          "Clear weather and normal visibility reduce weather-related complications.",
+          "No information indicates severe injuries, fire, hazardous materials, or a fully blocked roadway."
+        ],
+        "recommended_actions": [
+          "Verify the incident location, lane impact, vehicle status, and whether occupants require assistance.",
+          "Consider appropriate roadway safety and traffic-management measures for an active-lane obstruction.",
+          "Monitor queue growth, speeds, lane availability, and expected clearance duration.",
+          "Reevaluate the priority if congestion worsens, additional lanes become blocked, or conditions change."
+        ],
+        "missing_information": [
+          "Exact location or milepost near Exit 52.",
+          "Number of lanes remaining open and whether the obstruction is fully or partially blocking the right lane.",
+          "Whether anyone is injured, stranded, or exposed to immediate danger.",
+          "Vehicle type, size, and whether it is carrying hazardous materials.",
+          "Expected clearance or incident duration.",
+          "Whether responders or a service provider are already en route."
+        ],
+        "reasoning_summary": "The incident has elevated operational impact because it blocks an active travel lane and is already associated with reduced speeds and a small queue. The available evidence supports a HIGH priority, but the clear weather, normal visibility, and absence of reported severe hazards do not support CRITICAL priority. Conditions should be reassessed as traffic and clearance status change."
+      }
+    }
+  },
+  {
+    "incident_id": "A3",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "HIGH",
+      "confidence": 0.9,
+      "identified_factors": [
+        "Disabled tractor-trailer is blocking the right lane",
+        "Incident is on I-4 eastbound, a major roadway",
+        "Location is near Exit 55"
+      ],
+      "recommended_actions": [
+        "Assess and manage the lane blockage and traffic conditions",
+        "Provide advance warning to approaching motorists",
+        "Coordinate appropriate response for removal or relocation of the tractor-trailer",
+        "Monitor for congestion, secondary crashes, or additional hazards"
+      ],
+      "missing_information": [
+        "Whether anyone is injured or in immediate danger",
+        "Traffic speed, queue length, and current congestion",
+        "Duration of the blockage",
+        "Visibility, weather, and roadway conditions",
+        "Whether the tractor-trailer is carrying hazardous materials",
+        "Exact position relative to Exit 55 and available shoulder space"
+      ],
+      "reasoning_summary": "A disabled tractor-trailer blocking a travel lane on a major interstate creates a significant traffic and secondary-collision hazard. The report does not indicate injuries, fire, hazardous materials, or an immediate life-threatening condition, so HIGH is appropriate rather than CRITICAL."
+    },
+    "roadops": {
+      "tool_plan": {
+        "use_traffic": true,
+        "use_weather": false,
+        "use_sop": true,
+        "traffic_reason": "A disabled tractor-trailer blocking a travel lane could create a queue and speed reduction; current traffic levels, queue status, and roadway speeds would improve assessment.",
+        "weather_reason": null,
+        "sop_reason": "Relevant incident-policy guidance may clarify recommended handling and information needs for a commercial vehicle obstructing a lane on an interstate."
+      },
+      "context": {
+        "traffic": {
+          "available": true,
+          "data": {
+            "traffic_level": "heavy",
+            "queue_status": "growing",
+            "average_speed_mph": 21,
+            "normal_speed_mph": 65
+          }
+        },
+        "sop": {
+          "available": true,
+          "guidance": [
+            "## SOP-01: Verify Incident Information\n\nRoadOps should avoid making assumptions when critical information is\nmissing.\n\nImportant incident information may include:\n\n- roadway\n- direction\n- location\n- incident type\n- active-lane impact\n- traffic conditions\n- queue conditions\n- expected incident duration\n\nIf sufficient information is unavailable, RoadOps may classify the\nincident as INSUFFICIENT_INFORMATION.",
+            "## SOP-02: Active-Lane Impact\n\nAn incident affecting an active travel lane generally creates greater\noperational impact than an incident located entirely on the shoulder.\n\nIncreasing numbers of blocked active lanes may increase incident\npriority.",
+            "## SOP-04: Changing Conditions\n\nIncident assessments should be reevaluated when conditions change.\n\nRelevant changes include:\n\n- increasing or decreasing congestion\n- growing or clearing traffic queues\n- lane closures or reopenings\n- worsening weather\n- changing visibility\n- changes in expected clearance duration"
+          ]
+        }
+      },
+      "assessment": {
+        "priority": "HIGH",
+        "confidence": 0.93,
+        "identified_factors": [
+          "A disabled tractor trailer is blocking an active right travel lane on I-4 eastbound near Exit 55.",
+          "Traffic is heavy, with average speed reduced to 21 mph from a normal 65 mph.",
+          "The traffic queue is growing, indicating worsening congestion and increasing operational impact.",
+          "The incident location, roadway, direction, incident type, and lane impact are identified."
+        ],
+        "recommended_actions": [
+          "Verify the tractor trailer\u2019s exact position, current lane blockage, and whether conditions have changed.",
+          "Coordinate consideration of appropriate roadway assistance and traffic-management resources through authorized operational channels.",
+          "Monitor queue growth, speeds, and any lane closures or reopenings.",
+          "Reevaluate the priority as clearance duration, hazards, weather, or traffic conditions become known."
+        ],
+        "missing_information": [
+          "Expected incident duration or estimated clearance time.",
+          "Whether there are injuries, secondary crashes, hazardous materials, or other immediate safety hazards.",
+          "Whether additional lanes are affected and whether the vehicle can be moved to the shoulder.",
+          "Current weather and visibility conditions.",
+          "Availability of nearby response or recovery resources."
+        ],
+        "reasoning_summary": "This is assessed as HIGH priority because a large disabled vehicle is blocking an active travel lane and is associated with heavy, worsening congestion and substantially reduced speeds. CRITICAL priority is not supported by the available information because injuries, hazardous materials, secondary crashes, additional lane impacts, and expected duration are unknown."
+      }
+    }
+  },
+  {
+    "incident_id": "A4",
+    "expected_priority": "HIGH",
+    "baseline": {
+      "priority": "MEDIUM",
+      "confidence": 0.78,
+      "identified_factors": [
+        "Disabled vehicle on I-4 westbound",
+        "Location is near Exit 60",
+        "Potential traffic obstruction or secondary-incident risk"
+      ],
+      "recommended_actions": [
+        "Verify the vehicle\u2019s exact position and whether it obstructs travel lanes or the shoulder",
+        "Assess traffic conditions, visibility, and roadway safety at the location",
+        "Arrange appropriate roadside assistance or traffic-control response if warranted",
+        "Provide traveler information or consider lane-management measures if congestion or hazard is present"
+      ],
+      "missing_information": [
+        "Whether the vehicle is in a travel lane, shoulder, or other location",
+        "Number of lanes blocked, if any",
+        "Extent of traffic delay or congestion",
+        "Whether occupants are safe or need assistance",
+        "Vehicle type and size",
+        "Current weather, lighting, and visibility conditions",
+        "Whether a crash, spill, or other hazard is involved"
+      ],
+      "reasoning_summary": "A disabled vehicle on a major interstate can create a traffic hazard and secondary-incident risk, but the report does not establish lane blockage, injuries, congestion, or other aggravating circumstances. Medium priority is appropriate pending verification; reassess promptly if lanes are blocked or occupants are endangered."
+    },
+    "roadops": {
+      "tool_plan": {
+        "use_traffic": true,
+        "use_weather": false,
+        "use_sop": true,
+        "traffic_reason": "Traffic conditions, queueing, and speeds would help assess the operational impact of the disabled vehicle on I-4 westbound near Exit 60.",
+        "weather_reason": null,
+        "sop_reason": "Relevant incident-policy guidance could clarify response considerations for a disabled vehicle on a freeway shoulder or travel lane."
+      },
+      "context": {
+        "traffic": {
+          "available": true,
+          "data": {
+            "traffic_level": "heavy",
+            "queue_status": "growing",
+            "average_speed_mph": 18,
+            "normal_speed_mph": 65
+          }
+        },
+        "sop": {
+          "available": false,
+          "guidance": []
+        }
+      },
+      "assessment": {
+        "priority": "HIGH",
+        "confidence": 0.88,
+        "identified_factors": [
+          "Disabled vehicle reported on I-4 westbound near Exit 60.",
+          "Traffic is heavy in the affected area.",
+          "Queue is growing, indicating worsening congestion.",
+          "Average speed is 18 mph versus a normal speed of 65 mph, a substantial reduction."
+        ],
+        "recommended_actions": [
+          "Verify the vehicle\u2019s exact location, lane position, and whether it is obstructing travel lanes.",
+          "Assess for occupants, injuries, hazards, or any secondary crash risk.",
+          "Consider appropriate responder and traffic-management coordination under applicable local procedures.",
+          "Monitor queue length and speeds for further deterioration and provide traveler information as appropriate."
+        ],
+        "missing_information": [
+          "Whether the vehicle is in a travel lane, shoulder, or other location.",
+          "Whether anyone is injured or requires assistance.",
+          "Whether the vehicle presents additional hazards or has already caused a collision.",
+          "Exact mile marker and confirmation of the reported location.",
+          "Road, weather, visibility, and lighting conditions.",
+          "Availability of local standard operating procedures or response guidance."
+        ],
+        "reasoning_summary": "The incident is assessed as HIGH priority because a disabled vehicle coincides with heavy, worsening congestion and speeds substantially below normal. The available information does not establish injuries, a blocked lane, or a secondary crash, so the evidence does not support a CRITICAL assessment."
+      }
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[1] TOOL PLAN
+{
+  "use_traffic": true,
+  "use_weather": true,
+  "use_sop": true,
+  "traffic_reason": "Traffic conditions, queueing, and speeds will help assess the operational impact of a blocked lane.",
+  "weather_reason": "Weather and visibility may affect driver safety, scene management, and the likelihood of secondary incidents.",
+  "sop_reason": "The incident policy may provide guidance relevant to a disabled tractor-trailer blocking a travel lane."
+}
+
+[2] Calling Traffic Context Tool...
+[3] Calling Weather Context Tool...
+[4] Calling SOP Guidance Tool...
+
+[5] GATHERED CONTEXT
+{
+  "traffic": {
+    "available": true,
+    "data": {
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "average_speed_mph": 21,
+      "normal_speed_mph": 65
+    }
+  },
+  "weather": {
+    "available": true,
+    "data": {
+      "condition": "heavy_rain",
+      "visibility": "reduced"
+    }
+  },
+  "sop": {
+    "available": true,
+    "guidance": [
+      "## SOP-01: Verify Incident Information\n\nRoadOps should avoid making assumptions when critical information is\nmissing.\n\nImportant incident information may include:\n\n- roadway\n- direction\n- location\n- incident type\n- active-lane impact\n- traffic conditions\n- queue conditions\n- expected incident duration\n\nIf sufficient information is unavailable, RoadOps may classify the\nincident as INSUFFICIENT_INFORMATION.",
+      "## SOP-02: Active-Lane Impact\n\nAn incident affecting an active travel lane generally creates greater\noperational impact than an incident located entirely on the shoulder.\n\nIncreasing numbers of blocked active lanes may increase incident\npriority.",
+      "## SOP-04: Changing Conditions\n\nIncident assessments should be reevaluated when conditions change.\n\nRelevant changes include:\n\n- increasing or decreasing congestion\n- growing or clearing traffic queues\n- lane closures or reopenings\n- worsening weather\n- changing visibility\n- changes in expected clearance duration"
+    ]
+  }
+}
+
+[6] ROADOPS ASSESSMENT
+{
+  "priority": "HIGH",
+  "confidence": 0.95,
+  "identified_factors": [
+    "Disabled tractor trailer is blocking an active right travel lane on I-4 eastbound near Exit 55.",
+    "Traffic is heavy, with average speeds of 21 mph versus a normal 65 mph.",
+    "The queue is growing, indicating increasing congestion and operational impact.",
+    "Heavy rain and reduced visibility increase roadway risk and may hinder response and clearance."
+  ],
+  "recommended_actions": [
+    "Verify the incident details and current lane blockage with field or roadway monitoring sources.",
+    "Consider incident response and traffic-management coordination appropriate to an active-lane obstruction.",
+    "Provide traveler information and consider warning motorists of congestion, reduced visibility, and the blocked lane through established channels.",
+    "Reevaluate the assessment as the queue, weather, lane status, or clearance conditions change."
+  ],
+  "missing_information": [
+    "Expected clearance duration is not provided.",
+    "No information is provided about injuries, secondary crashes, spilled cargo, fuel or hazardous-material involvement, or other immediate hazards.",
+    "The availability of a usable shoulder or alternate lane status is not provided."
+  ],
+  "reasoning_summary": "This is a high-priority incident because a large vehicle is blocking an active travel lane, traffic is already moving substantially below normal speeds, and the queue is growing. Heavy rain and reduced visibility further increase operational and roadway risk. The available information does not establish additional conditions that would support a critical classification."
+}
