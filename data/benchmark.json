@@ -1,0 +1,730 @@
+[
+  {
+    "id": "A1",
+    "category": "disabled_vehicle",
+    "initial_report": "Disabled sedan reported on the shoulder of I-4 eastbound near Exit 48.",
+    "hidden_context": {
+      "lanes_blocked": 0,
+      "traffic_level": "light",
+      "queue_status": "none",
+      "weather": "clear",
+      "visibility": "normal",
+      "expected_duration_minutes": 20
+    },
+    "expected_priority": "LOW",
+    "required_factors": [
+      "shoulder_only",
+      "no_active_lane_blockage",
+      "minimal_traffic_impact"
+    ],
+    "expected_guidance": [
+      "verify_incident_status",
+      "monitor_conditions"
+    ],
+    "prohibited_assumptions": [
+      "injuries",
+      "hazmat",
+      "crash"
+    ]
+  },
+
+  {
+    "id": "A2",
+    "category": "disabled_vehicle",
+    "initial_report": "Disabled vehicle blocking the right lane of I-4 eastbound near Exit 52.",
+    "hidden_context": {
+      "lanes_blocked": 1,
+      "traffic_level": "moderate",
+      "queue_status": "small",
+      "weather": "clear",
+      "visibility": "normal",
+      "expected_duration_minutes": 25
+    },
+    "expected_priority": "MEDIUM",
+    "required_factors": [
+      "active_lane_blockage",
+      "moderate_traffic_impact"
+    ],
+    "expected_guidance": [
+      "verify_incident_status",
+      "monitor_conditions"
+    ],
+    "prohibited_assumptions": [
+      "injuries",
+      "hazmat"
+    ]
+  },
+
+  {
+    "id": "A3",
+    "category": "disabled_vehicle",
+    "initial_report": "Disabled tractor trailer blocking the right lane of I-4 eastbound near Exit 55.",
+    "hidden_context": {
+      "lanes_blocked": 1,
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "heavy_rain",
+      "visibility": "reduced",
+      "expected_duration_minutes": 70
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "active_lane_blockage",
+      "heavy_congestion",
+      "growing_queue",
+      "reduced_visibility",
+      "intermediate_duration"
+    ],
+    "expected_guidance": [
+      "verify_incident_status",
+      "monitor_queue",
+      "reassess_conditions"
+    ],
+    "prohibited_assumptions": [
+      "injuries",
+      "hazmat"
+    ]
+  },
+
+  {
+    "id": "A4",
+    "category": "disabled_vehicle",
+    "initial_report": "Disabled vehicle reported on I-4 westbound near Exit 60.",
+    "hidden_context": {
+      "lanes_blocked": 2,
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "clear",
+      "visibility": "normal",
+      "expected_duration_minutes": 50
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "multiple_active_lanes_blocked",
+      "heavy_congestion",
+      "growing_queue"
+    ],
+    "expected_guidance": [
+      "verify_incident_status",
+      "monitor_queue",
+      "reassess_conditions"
+    ],
+    "prohibited_assumptions": [
+      "injuries",
+      "hazmat"
+    ]
+  },
+
+  {
+    "id": "A5",
+    "category": "lane_blockage_congestion",
+    "initial_report": "Disabled vehicle reported on I-275 northbound near Exit 45.",
+    "hidden_context": {
+      "blocked_active_lanes": 0,
+      "location_status": "shoulder",
+      "traffic_level": "light",
+      "queue_status": "none",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 15
+    },
+    "expected_priority": "LOW",
+    "required_factors": [
+      "shoulder",
+      "no active lane blocked",
+      "light traffic",
+      "no queue"
+    ],
+    "expected_guidance": [
+      "monitor conditions",
+      "verify incident status"
+    ],
+    "prohibited_assumptions": [
+      "injuries",
+      "hazmat",
+      "roadway closure"
+    ]
+  },
+  {
+    "id": "A6",
+    "category": "lane_blockage_congestion",
+    "initial_report": "Vehicle crash reported on SR-60 eastbound near the interchange.",
+    "hidden_context": {
+      "blocked_active_lanes": 1,
+      "location_status": "active_lane",
+      "traffic_level": "moderate",
+      "queue_status": "small",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 20
+    },
+    "expected_priority": "MEDIUM",
+    "required_factors": [
+      "one active lane blocked",
+      "moderate traffic",
+      "small queue"
+    ],
+    "expected_guidance": [
+      "monitor queue",
+      "reevaluate lane impact"
+    ],
+    "prohibited_assumptions": [
+      "injuries",
+      "fatality",
+      "full closure"
+    ]
+  },
+  {
+    "id": "A7",
+    "category": "lane_blockage_congestion",
+    "initial_report": "Truck incident reported on I-75 southbound near Exit 265.",
+    "hidden_context": {
+      "blocked_active_lanes": 2,
+      "location_status": "active_lane",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 40
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "multiple active lanes blocked",
+      "heavy traffic",
+      "growing queue"
+    ],
+    "expected_guidance": [
+      "monitor queue growth",
+      "reevaluate lane availability"
+    ],
+    "prohibited_assumptions": [
+      "hazmat",
+      "injuries",
+      "complete closure"
+    ]
+  },
+  {
+    "id": "A8",
+    "category": "lane_blockage_congestion",
+    "initial_report": "Roadway incident reported on I-4 eastbound near Exit 33.",
+    "hidden_context": {
+      "blocked_active_lanes": 1,
+      "location_status": "active_lane",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 35
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "active lane blockage",
+      "heavy traffic",
+      "growing queue"
+    ],
+    "expected_guidance": [
+      "monitor congestion",
+      "reevaluate conditions"
+    ],
+    "prohibited_assumptions": [
+      "multiple lanes blocked",
+      "injuries",
+      "weather hazard"
+    ]
+  },
+
+  {
+    "id": "A9",
+    "category": "weather_visibility",
+    "initial_report": "Disabled vehicle reported on US-19 northbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 0,
+      "location_status": "shoulder",
+      "traffic_level": "light",
+      "queue_status": "none",
+      "weather": "heavy_rain",
+      "visibility": "reduced",
+      "duration_minutes": 10
+    },
+    "expected_priority": "LOW",
+    "required_factors": [
+      "shoulder",
+      "no active lane blockage",
+      "heavy rain",
+      "reduced visibility"
+    ],
+    "expected_guidance": [
+      "monitor weather",
+      "reevaluate if roadway impact changes"
+    ],
+    "prohibited_assumptions": [
+      "active lane blockage",
+      "queue",
+      "collision"
+    ]
+  },
+  {
+    "id": "A10",
+    "category": "weather_visibility",
+    "initial_report": "Minor crash reported on I-275 southbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 1,
+      "location_status": "active_lane",
+      "traffic_level": "moderate",
+      "queue_status": "small",
+      "weather": "light_rain",
+      "visibility": "normal",
+      "duration_minutes": 25
+    },
+    "expected_priority": "MEDIUM",
+    "required_factors": [
+      "one active lane blocked",
+      "moderate traffic",
+      "small queue"
+    ],
+    "expected_guidance": [
+      "monitor lane impact",
+      "monitor queue"
+    ],
+    "prohibited_assumptions": [
+      "heavy rain",
+      "poor visibility",
+      "multiple lanes blocked"
+    ]
+  },
+  {
+    "id": "A11",
+    "category": "weather_visibility",
+    "initial_report": "Vehicle incident reported on I-4 westbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 1,
+      "location_status": "active_lane",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "heavy_rain",
+      "visibility": "reduced",
+      "duration_minutes": 30
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "active lane blockage",
+      "heavy traffic",
+      "growing queue",
+      "heavy rain",
+      "reduced visibility"
+    ],
+    "expected_guidance": [
+      "monitor weather",
+      "monitor queue growth",
+      "reevaluate conditions"
+    ],
+    "prohibited_assumptions": [
+      "multiple lanes blocked",
+      "full closure",
+      "hazmat"
+    ]
+  },
+  {
+    "id": "A12",
+    "category": "weather_visibility",
+    "initial_report": "Roadway obstruction reported on I-75 northbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 2,
+      "location_status": "active_lane",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "fog",
+      "visibility": "reduced",
+      "duration_minutes": 45
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "multiple active lanes blocked",
+      "heavy traffic",
+      "growing queue",
+      "reduced visibility"
+    ],
+    "expected_guidance": [
+      "monitor visibility",
+      "monitor queue growth",
+      "reevaluate lane availability"
+    ],
+    "prohibited_assumptions": [
+      "complete closure",
+      "injuries",
+      "hazardous material"
+    ]
+  },
+
+  {
+    "id": "A13",
+    "category": "duration_changing_conditions",
+    "initial_report": "Disabled truck reported on I-4 eastbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 1,
+      "location_status": "active_lane",
+      "traffic_level": "moderate",
+      "queue_status": "small",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 20
+    },
+    "expected_priority": "MEDIUM",
+    "required_factors": [
+      "one active lane blocked",
+      "moderate traffic",
+      "short duration"
+    ],
+    "expected_guidance": [
+      "monitor duration",
+      "reevaluate conditions"
+    ],
+    "prohibited_assumptions": [
+      "extended duration",
+      "heavy congestion",
+      "multiple lanes blocked"
+    ]
+  },
+  {
+    "id": "A14",
+    "category": "duration_changing_conditions",
+    "initial_report": "Disabled truck reported on I-4 eastbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 1,
+      "location_status": "active_lane",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 95
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "one active lane blocked",
+      "heavy traffic",
+      "growing queue",
+      "intermediate duration"
+    ],
+    "expected_guidance": [
+      "monitor duration",
+      "monitor queue growth",
+      "reevaluate conditions"
+    ],
+    "prohibited_assumptions": [
+      "full roadway closure",
+      "weather hazard",
+      "multiple lanes blocked"
+    ]
+  },
+  {
+    "id": "A15",
+    "category": "duration_changing_conditions",
+    "initial_report": "Roadway incident reported on I-275 northbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 0,
+      "location_status": "shoulder",
+      "traffic_level": "moderate",
+      "queue_status": "none",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 140
+    },
+    "expected_priority": "MEDIUM",
+    "required_factors": [
+      "shoulder",
+      "no active lane blockage",
+      "extended duration"
+    ],
+    "expected_guidance": [
+      "reevaluate duration",
+      "monitor for traffic impact"
+    ],
+    "prohibited_assumptions": [
+      "active lane blockage",
+      "growing queue",
+      "heavy congestion"
+    ]
+  },
+  {
+    "id": "A16",
+    "category": "duration_changing_conditions",
+    "initial_report": "Truck incident reported on I-75 southbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 2,
+      "location_status": "active_lane",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "heavy_rain",
+      "visibility": "reduced",
+      "duration_minutes": 130
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "multiple active lanes blocked",
+      "heavy traffic",
+      "growing queue",
+      "heavy rain",
+      "extended duration"
+    ],
+    "expected_guidance": [
+      "monitor duration",
+      "monitor queue growth",
+      "monitor weather"
+    ],
+    "prohibited_assumptions": [
+      "complete closure",
+      "fatality",
+      "hazmat"
+    ]
+  },
+
+  {
+    "id": "A17",
+    "category": "missing_ambiguous_information",
+    "initial_report": "Possible roadway incident reported near Exit 40.",
+    "hidden_context": {
+      "blocked_active_lanes": null,
+      "location_status": "unknown",
+      "traffic_level": "unknown",
+      "queue_status": "unknown",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": null
+    },
+    "expected_priority": "INSUFFICIENT_INFORMATION",
+    "required_factors": [
+      "lane impact unknown",
+      "traffic conditions unknown",
+      "duration unknown"
+    ],
+    "expected_guidance": [
+      "verify incident information",
+      "obtain lane impact",
+      "obtain traffic conditions"
+    ],
+    "prohibited_assumptions": [
+      "active lane blockage",
+      "heavy traffic",
+      "queue",
+      "crash"
+    ]
+  },
+  {
+    "id": "A18",
+    "category": "missing_ambiguous_information",
+    "initial_report": "Vehicle incident reported on I-4.",
+    "hidden_context": {
+      "blocked_active_lanes": null,
+      "location_status": "unknown",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 30
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "heavy traffic",
+      "growing queue",
+      "lane impact unknown"
+    ],
+    "expected_guidance": [
+      "verify lane impact",
+      "monitor queue growth",
+      "reevaluate conditions"
+    ],
+    "prohibited_assumptions": [
+      "one lane blocked",
+      "two lanes blocked",
+      "full closure"
+    ]
+  },
+  {
+    "id": "A19",
+    "category": "missing_ambiguous_information",
+    "initial_report": "Disabled vehicle reported on I-275.",
+    "hidden_context": {
+      "blocked_active_lanes": 0,
+      "location_status": "shoulder",
+      "traffic_level": "unknown",
+      "queue_status": "unknown",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 10
+    },
+    "expected_priority": "LOW",
+    "required_factors": [
+      "shoulder",
+      "no active lane blockage",
+      "traffic conditions unknown"
+    ],
+    "expected_guidance": [
+      "monitor traffic",
+      "verify conditions"
+    ],
+    "prohibited_assumptions": [
+      "heavy traffic",
+      "queue",
+      "active lane blockage"
+    ]
+  },
+  {
+    "id": "A20",
+    "category": "missing_ambiguous_information",
+    "initial_report": "Crash reported on I-75.",
+    "hidden_context": {
+      "blocked_active_lanes": 1,
+      "location_status": "active_lane",
+      "traffic_level": "unknown",
+      "queue_status": "unknown",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 20
+    },
+    "expected_priority": "MEDIUM",
+    "required_factors": [
+      "one active lane blocked",
+      "traffic conditions unknown"
+    ],
+    "expected_guidance": [
+      "verify traffic conditions",
+      "monitor lane impact"
+    ],
+    "prohibited_assumptions": [
+      "heavy traffic",
+      "growing queue",
+      "multiple lanes blocked"
+    ]
+  },
+
+  {
+    "id": "A21",
+    "category": "severe_exceptional",
+    "initial_report": "Major roadway incident reported on I-4 eastbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 4,
+      "location_status": "active_lane",
+      "roadway_status": "closed",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 150
+    },
+    "expected_priority": "CRITICAL",
+    "required_factors": [
+      "complete roadway blockage",
+      "heavy traffic",
+      "growing queue",
+      "prolonged duration"
+    ],
+    "expected_guidance": [
+      "reevaluate continuously",
+      "monitor network impact",
+      "support operational coordination"
+    ],
+    "prohibited_assumptions": [
+      "fatalities",
+      "hazmat",
+      "weather hazard"
+    ]
+  },
+  {
+    "id": "A22",
+    "category": "severe_exceptional",
+    "initial_report": "Major truck incident reported on I-75.",
+    "hidden_context": {
+      "blocked_active_lanes": 3,
+      "location_status": "active_lane",
+      "roadway_status": "partially_impacted",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "heavy_rain",
+      "visibility": "reduced",
+      "duration_minutes": 160
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "multiple active lanes blocked",
+      "heavy traffic",
+      "growing queue",
+      "heavy rain",
+      "prolonged duration"
+    ],
+    "expected_guidance": [
+      "monitor queue growth",
+      "monitor weather",
+      "reevaluate roadway status"
+    ],
+    "prohibited_assumptions": [
+      "complete roadway closure",
+      "fatalities",
+      "hazmat"
+    ]
+  },
+  {
+    "id": "A23",
+    "category": "severe_exceptional",
+    "initial_report": "Major roadway incident reported near an interstate interchange.",
+    "hidden_context": {
+      "blocked_active_lanes": 4,
+      "location_status": "active_lane",
+      "roadway_status": "closed",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "heavy_rain",
+      "visibility": "reduced",
+      "duration_minutes": 210
+    },
+    "expected_priority": "CRITICAL",
+    "required_factors": [
+      "complete roadway blockage",
+      "heavy traffic",
+      "growing queue",
+      "adverse weather",
+      "prolonged duration"
+    ],
+    "expected_guidance": [
+      "monitor network disruption",
+      "reevaluate continuously",
+      "support operational coordination"
+    ],
+    "prohibited_assumptions": [
+      "fatalities",
+      "hazardous material",
+      "secondary crash"
+    ]
+  },
+  {
+    "id": "A24",
+    "category": "severe_exceptional",
+    "initial_report": "Large vehicle incident reported on I-275 southbound.",
+    "hidden_context": {
+      "blocked_active_lanes": 2,
+      "location_status": "active_lane",
+      "roadway_status": "partially_impacted",
+      "traffic_level": "heavy",
+      "queue_status": "growing",
+      "weather": "clear",
+      "visibility": "normal",
+      "duration_minutes": 75
+    },
+    "expected_priority": "HIGH",
+    "required_factors": [
+      "multiple active lanes blocked",
+      "heavy traffic",
+      "growing queue",
+      "extended duration"
+    ],
+    "expected_guidance": [
+      "monitor queue growth",
+      "monitor duration",
+      "reevaluate lane availability"
+    ],
+    "prohibited_assumptions": [
+      "complete roadway closure",
+      "weather hazard",
+      "fatalities"
+    ]
+  }
+]
