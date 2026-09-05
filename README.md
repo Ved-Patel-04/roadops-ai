@@ -6,6 +6,17 @@ RoadOps AI is a proof-of-concept agentic AI system designed to assist roadway op
 
 Rather than sending an incident description directly to a language model, RoadOps uses an agentic workflow that determines which information sources are relevant, retrieves contextual evidence through tools, applies a simplified roadway operations policy framework, and produces a structured assessment for human review.
 
+## Live Demo
+
+**[Launch RoadOps AI](https://roadops-ai.streamlit.app/)**
+
+Experience RoadOps AI directly through the deployed Streamlit application.
+
+- **Operator Mode** — Run roadway incident scenarios and view the resulting priority assessment, contextual evidence, recommended actions, and reasoning.
+- **Developer Mode** — Explore the underlying agent architecture, tool execution, retrieved context, policy grounding, and evaluation results.
+
+> **Recommended:** Start by analyzing an incident in Operator Mode, then switch to Developer Mode to see how RoadOps gathers evidence and produces the assessment.
+
 > **RoadOps is a decision-support proof of concept. It does not autonomously dispatch responders, control roadway infrastructure, or replace human operational authority.**
 
 ---
