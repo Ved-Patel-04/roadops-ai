@@ -1,0 +1,102 @@
+{
+  "A1": {
+    "condition": "clear",
+    "visibility": "normal"
+  },
+
+  "A2": {
+    "condition": "clear",
+    "visibility": "normal"
+  },
+
+  "A3": {
+    "condition": "heavy_rain",
+    "visibility": "reduced"
+  },
+
+  "A4": {
+    "condition": "clear",
+    "visibility": "normal"
+  },
+
+"A5": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A6": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A7": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A8": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A9": {
+  "condition": "heavy_rain",
+  "visibility": "reduced"
+},
+"A10": {
+  "condition": "light_rain",
+  "visibility": "normal"
+},
+"A11": {
+  "condition": "heavy_rain",
+  "visibility": "reduced"
+},
+"A12": {
+  "condition": "fog",
+  "visibility": "reduced"
+},
+"A13": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A14": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A15": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A16": {
+  "condition": "heavy_rain",
+  "visibility": "reduced"
+},
+"A17": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A18": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A19": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A20": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A21": {
+  "condition": "clear",
+  "visibility": "normal"
+},
+"A22": {
+  "condition": "heavy_rain",
+  "visibility": "reduced"
+},
+"A23": {
+  "condition": "heavy_rain",
+  "visibility": "reduced"
+},
+"A24": {
+  "condition": "clear",
+  "visibility": "normal"
+}
+}
